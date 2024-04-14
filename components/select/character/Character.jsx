@@ -1,4 +1,4 @@
-import { GLTFLoader, Renderer } from "expo-three";
+// import { GLTFLoader, Renderer } from "expo-three";
 import { Asset } from "expo-asset";
 import { View, Text } from "react-native";
 

@@ -9,6 +9,9 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-three/drei": "^9.105.4",
+    "@react-three/fiber": "^8.16.2",
+    "base64-arraybuffer": "^1.0.2",
     "expo": "^50.0.1",
     "expo-asset": "^9.0.2",
     "expo-constants": "~15.4.5",
@@ -17,14 +20,15 @@
     "expo-router": "~3.4.3",
     "expo-splash-screen": "~0.26.3",
     "expo-status-bar": "~1.11.1",
-    "expo-three": "^7.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.73.2",
     "react-native-gesture-handler": "~2.14.0",
     "react-native-safe-area-context": "4.8.2",
     "react-native-screens": "~3.29.0",
-    "react-native-web": "~0.19.6"
+    "react-native-web": "~0.19.6",
+    "three": "^0.163.0",
+    "ts-pattern": "^5.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

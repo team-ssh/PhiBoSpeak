@@ -13,14 +13,25 @@ const styles = StyleSheet.create({
   messageContainer: {
     padding: 12,
     height: "800px",
+    display: "flex",
+    flexDirection: "column",
+    rowGap: 10
   },
   message: {
     // backgroundColor: "white",
     backgroundColor: COLORS.primary,
-
     padding: SIZES.medium,
     borderRadius: SIZES.medium,
     width: "fit-content",
+    marginRight: 50,
+  },
+  userMessage: {
+    // backgroundColor: "white",
+    backgroundColor: COLORS.primary,
+    padding: SIZES.medium,
+    borderRadius: SIZES.medium,
+    width: "fit-content",
+    marginLeft: 50,
   },
   responseContainer: {
     width: "100%",
