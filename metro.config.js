@@ -9,7 +9,7 @@ const config = {
   resolver: {
     ...defaultConfig.resolver,
     sourceExts: ['js', 'jsx', 'json', 'ts', 'tsx', 'cjs', 'mjs'],
-    assetExts: ['glb', 'gltf', 'png', 'jpg', 'gif', 'ttf'],
+    assetExts: ['glb', 'gltf', 'png', 'jpg', 'gif', 'ttf', 'fbx', 'obj', 'mtl'],
   },
 };
 

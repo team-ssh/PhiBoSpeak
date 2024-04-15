@@ -9,8 +9,8 @@ import { useGLTF } from '@react-three/drei/native';
 import { Canvas } from '@react-three/fiber/native';
 
 function Character({ modelUri }) {
-  const { scene } = useGLTF(modelUri);
-  return <primitive object={scene} scale={[0.8, 0.8, 0.8]} />;
+  const glb = useGLTF(modelUri);
+  return <primitive object={glb.scene} scale={[0.8, 0.8, 0.8]} />;
 }
 
 function Recording() {
