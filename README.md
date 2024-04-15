@@ -1,11 +1,11 @@
-# Expo Router Example
+# PhiBoSpeak Mobile Client
 
-Use [`expo-router`](https://docs.expo.dev/router/introduction/) to build native navigation using files in the `app/` directory.
+Meet PhiBo: The Game Changer of Language Learning
 
 ## 🚀 How to use
 
 ```sh
-npx create-expo-app -e with-router
+npm start
 ```
 
 ## 📝 Notes
